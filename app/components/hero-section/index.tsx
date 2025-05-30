@@ -77,7 +77,12 @@ const HeroSection: React.FC = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <div className="flex items-center">
-                <Image src="/nav-logo.png" alt="logo" width={154} height={90} />
+                <Image
+                  src="/footers-logo.svg"
+                  alt="logo"
+                  width={154}
+                  height={90}
+                />
               </div>
             </div>
 
