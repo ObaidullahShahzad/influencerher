@@ -8,6 +8,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/faveicon.svg" />
+      </head>
       <body>{children}</body>
     </html>
   );
