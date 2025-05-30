@@ -10,15 +10,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Primary favicon */}
-        <link rel="icon" type="image/svg+xml" href="/faveicon.svg" />
-
-        {/* Fallback favicon for older browsers */}
-        <link rel="alternate icon" href="/faveicon.svg" />
-
-        {/* Optional: Apple Touch Icon */}
-        <link rel="apple-touch-icon" href="/faveicon.svg" />
-
-        <title>Your App Name</title>
+        <link rel="icon" type="image/svg+xml" href="/Faveicon.svg" />
+        <title>InfluenceHer</title>
       </head>
       <body>{children}</body>
     </html>
