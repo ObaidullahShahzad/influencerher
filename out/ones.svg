@@ -1,0 +1,19 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-80" y="-80" width="214" height="214"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(40.5px);clip-path:url(#bgblur_0_212_180_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="81" d="M1 1H53V53H1V1Z" fill="url(#paint0_linear_212_180)" fill-opacity="0.29"/>
+<path d="M15 20.3333V17.6667C15 16.9594 15.281 16.2811 15.781 15.781C16.2811 15.281 16.9594 15 17.6667 15H20.3333" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.6665 15H36.3332C37.0404 15 37.7187 15.281 38.2188 15.781C38.7189 16.2811 38.9998 16.9594 38.9998 17.6667V20.3333" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.9998 33.6667V36.3334C38.9998 37.0407 38.7189 37.7189 38.2188 38.219C37.7187 38.7191 37.0404 39.0001 36.3332 39.0001H33.6665" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.3333 39.0001H17.6667C16.9594 39.0001 16.2811 38.7191 15.781 38.219C15.281 37.7189 15 37.0407 15 36.3334V33.6667" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.6665 29.6667C21.6665 29.6667 23.6665 32.3334 26.9998 32.3334C30.3332 32.3334 32.3332 29.6667 32.3332 29.6667" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 23H23.0133" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 23H31.0133" stroke="white" stroke-opacity="0.79" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 1H53V18" stroke="white" stroke-width="0.5"/>
+<path d="M18 53L1 53L1 36" stroke="white" stroke-width="0.5"/>
+<defs>
+<clipPath id="bgblur_0_212_180_clip_path" transform="translate(80 80)"><path d="M1 1H53V53H1V1Z"/>
+</clipPath><linearGradient id="paint0_linear_212_180" x1="27" y1="1" x2="27" y2="53" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B3B3B"/>
+<stop offset="1" stop-color="#3B3B3B"/>
+</linearGradient>
+</defs>
+</svg>
