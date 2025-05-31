@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Menu, X, Search, ChevronDown } from "lucide-react";
+import { Menu, X, Search, ChevronDown, FileText } from "lucide-react";
 import Image from "next/image";
 import "../../font.css";
 
@@ -8,6 +8,7 @@ interface NavItem {
   label: string;
   href: string;
   hasDropdown?: boolean;
+  isExternal?: boolean;
 }
 
 const HeroSection: React.FC = () => {
@@ -18,6 +19,11 @@ const HeroSection: React.FC = () => {
     { label: "MARKETING FUNNELS", href: "#marketing", hasDropdown: true },
     { label: "CREATOR OUTREACH", href: "#creator" },
     { label: "TOKEN", href: "#token" },
+    {
+      label: "WHITE PAPER",
+      href: "https://influenceher.gitbook.io/docs",
+      isExternal: true,
+    },
   ];
 
   const toggleMobileMenu = () => {
@@ -35,8 +41,14 @@ const HeroSection: React.FC = () => {
 
   const handleNavClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    href: string
+    href: string,
+    isExternal?: boolean
   ) => {
+    if (isExternal) {
+      // Don't prevent default for external links - let them open in new tab
+      return;
+    }
+
     e.preventDefault();
     const sectionId = href.substring(1); // Remove '#' from href
     const section = document.getElementById(sectionId);
@@ -93,9 +105,18 @@ const HeroSection: React.FC = () => {
                   <a
                     key={item.label}
                     href={item.href}
-                    onClick={(e) => handleNavClick(e, item.href)}
-                    className="text-white neue hover:text-blue-300 transition-colors duration-200 text-[16px] font-medium tracking-wide flex items-center group"
+                    onClick={(e) =>
+                      handleNavClick(e, item.href, item.isExternal)
+                    }
+                    target={item.isExternal ? "_blank" : undefined}
+                    rel={item.isExternal ? "noopener noreferrer" : undefined}
+                    className={`text-white neue hover:text-blue-300 transition-colors duration-200 text-[16px] font-medium tracking-wide flex items-center group ${
+                      item.isExternal
+                        ? "hover:bg-blue-600/20 px-3 py-2 rounded-md"
+                        : ""
+                    }`}
                   >
+                    {item.isExternal && <FileText className="mr-2 h-4 w-4" />}
                     {item.label}
                     {item.hasDropdown && (
                       <ChevronDown className="ml-1 h-4 w-4 group-hover:rotate-180 transition-transform duration-200" />
@@ -169,13 +190,28 @@ const HeroSection: React.FC = () => {
                     key={item.label}
                     href={item.href}
                     onClick={(e) => {
-                      handleNavClick(e, item.href);
-                      toggleMobileMenu();
+                      if (!item.isExternal) {
+                        handleNavClick(e, item.href);
+                        toggleMobileMenu();
+                      } else {
+                        toggleMobileMenu();
+                      }
                     }}
-                    className="block text-white neue hover:text-blue-300 transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10"
+                    target={item.isExternal ? "_blank" : undefined}
+                    rel={item.isExternal ? "noopener noreferrer" : undefined}
+                    className={`block text-white neue hover:text-blue-300 transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10 ${
+                      item.isExternal
+                        ? "hover:bg-blue-600/20 rounded-md px-2 -mx-2"
+                        : ""
+                    }`}
                   >
                     <div className="flex items-center justify-between">
-                      {item.label}
+                      <div className="flex items-center">
+                        {item.isExternal && (
+                          <FileText className="mr-2 h-4 w-4" />
+                        )}
+                        {item.label}
+                      </div>
                       {item.hasDropdown && <ChevronDown className="h-4 w-4" />}
                     </div>
                   </a>
