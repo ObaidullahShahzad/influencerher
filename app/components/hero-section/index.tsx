@@ -90,7 +90,7 @@ const HeroSection: React.FC = () => {
             <div className="flex-shrink-0">
               <div className="flex items-center">
                 <Image
-                  src="/footers-logo.svg"
+                  src="/footers-logos.svg"
                   alt="logo"
                   width={154}
                   height={90}

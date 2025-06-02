@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Primary favicon */}
-        <link rel="icon" type="image/svg+xml" href="/Faveicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/Faveicons.svg" />
         <title>InfluenceHer</title>
       </head>
       <body>{children}</body>
