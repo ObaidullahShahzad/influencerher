@@ -142,13 +142,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Creator Revenue
+              Creator Revenue Engine{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              We professionally manage OnlyFans creators and scale their monthly
-              earnings through content strategy, marketing, chatting, and paid
-              campaign execution. This is the revenue foundation of our
-              ecosystem.
+              We empower OnlyFans creators with tailored strategies and
+              marketing funnels to maximize their monthly earnings.
             </p>
           </div>
 
@@ -182,12 +180,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Tokenized Layer
+              Tokenized Incentive Model{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              The $INFLUENCE token allows supporters to engage directly with the
-              platform by staking to access platform-exclusive rewards tied to
-              overall ecosystem activity.
+              Our $INFLUENCE token rewards supporters and stakeholders, driving
+              engagement and reinforcing platform value.
             </p>
           </div>
 
@@ -221,12 +218,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Staking-Based Reward System
+              Staking-Based Rewards System{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              25% of platform-generated value is allocated to incentive pools,
-              which are distributed to eligible token holders who stake
-              \$INFLUENCE during active reward cycles.
+              Token holders who stake earn platform incentives, ensuring
+              alignment between creators, investors, and users.
             </p>
           </div>
 
@@ -260,13 +256,13 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Creator & Holder Alignment
+              Creator & Holder Alignment{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              As creators grow, so does the value of ecosystem participation.
-              Our model is designed to reward those who support and contribute
-              to creator success, creating a feedback loop that fuels both sides
-              of the network.
+              Our model ensures that creators and token holders are aligned
+              through a rewards-driven system, where creator success directly
+              benefits token holders, creating a mutually reinforcing ecosystem
+              of growth.
             </p>
           </div>
 
@@ -300,13 +296,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Multi-Creator Network
+              Multi-Creator Network{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              We&apos;re building a token powered network of high-performing
-              creators, with each new onboarded talent expanding the earning
-              potential of the ecosystem and the opportunities for token
-              holders.
+              A curated portfolio of high-earning creators fuels network effects
+              and sustainable growth.
             </p>
           </div>
 
@@ -340,12 +334,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              RWA Web3 Utility
+              RWA Web3 Utility{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              \$INFLUENCE is rooted in a proven business model. Recurring
-              creator revenue while leveraging Web3 infrastructure for
-              success_GENERAL_TOKEN scale, and transparency.
+              Our model bridges digital and real-world revenue streams,
+              leveraging Web3 transparency and scalability.
             </p>
           </div>
         </div>
