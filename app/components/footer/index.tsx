@@ -109,7 +109,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
             <div className="flex flex-col items-center lg:items-start">
               <div className="mb-2">
                 <Image
-                  src="/footers-logo.jpg"
+                  src="/footers-logo.svg"
                   alt="Influenceher Logo"
                   width={260}
                   height={150}
