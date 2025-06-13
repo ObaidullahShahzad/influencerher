@@ -193,7 +193,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
                 Privacy Policy
               </Link>
               <Link
-                href="/terms-of-service"
+                href="/terms-condition"
                 className="text-sm font-light jakarta text-white/50 transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
               >
                 Terms of Service

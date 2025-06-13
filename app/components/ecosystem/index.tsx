@@ -183,8 +183,7 @@ const EcosystemComponent = () => {
               Tokenized Incentive Model{" "}
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              Our $INFLUENCE token rewards supporters and stakeholders, driving
-              engagement and reinforcing platform value.
+              Our $INFLU token rewards supporters.
             </p>
           </div>
 
@@ -218,11 +217,11 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Staking-Based Rewards System{" "}
+              Buyback & Burn System
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
-              Token holders who stake earn platform incentives, ensuring
-              alignment between creators, investors, and users.
+              A portion of revenue is used to buy and burn tokens from
+              circulation of driving scarcity and long-term value.
             </p>
           </div>
 
@@ -256,7 +255,7 @@ const EcosystemComponent = () => {
               />
             </div>
             <h3 className="text-[24px] font-[400] mb-[14px] neue relative z-20">
-              Creator & Holder Alignment{" "}
+              Creator & Holder Alignment
             </h3>
             <p className="font-[400] text-white/50 text-[15px] leading-[18px] jakarta relative z-20 hover-text">
               Our model ensures that creators and token holders are aligned

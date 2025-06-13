@@ -103,9 +103,8 @@ const MarketingFunnels: React.FC = () => {
                 Instagram
               </h3>
               <p className=" hover-text font-[400] text-white/50 text-sm md:text-[15px] leading-[18px] jakarta">
-                We use a Instagram strategy leveraging multiple slave accounts
-                to drive targeted traffic, grow followers, and funnel high
-                converting users directly to creator OnlyFans pages.
+                Multi-account systems target high-intent users, funneling them
+                into creator profiles to drive subscriptions.
               </p>
             </div>
 
@@ -138,9 +137,8 @@ const MarketingFunnels: React.FC = () => {
                 Dating Apps
               </h3>
               <p className=" hover-text font-[400] text-white/50 text-sm md:text-[15px] leading-[18px] jakarta">
-                We leverage high conversion funnels on dating platforms to
-                acquire qualified traffic and redirect it into monetized creator
-                channels, optimizing for subscription growth.
+                Optimized funnels on top dating platforms convert users into
+                paying subscribers for creators.
               </p>
             </div>
 
@@ -173,9 +171,8 @@ const MarketingFunnels: React.FC = () => {
                 TikTok
               </h3>
               <p className=" hover-text font-[400] text-white/50 text-sm md:text-[15px] leading-[18px] jakarta">
-                We convert viral reach from TikTok Reels and Lives into
-                subscription revenue by strategically funneling engaged viewers
-                into creators OnlyFans profiles.
+                Viral content strategies turn engaged viewers into loyal fans
+                through high-converting subscription pathways.
               </p>
             </div>
           </div>
