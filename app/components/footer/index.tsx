@@ -121,13 +121,29 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-16">
             {/* Logo Section */}
             <div className="flex flex-col items-center lg:items-start">
-              <div className="mb-2">
-                <Image
-                  src="/footers-logos.svg"
-                  alt="Influenceher Logo"
-                  width={260}
-                  height={150}
-                />
+              <div className="mb-2 flex flex-col xl:flex-row space-x-10 items-center lg:items-start space-y-4 sm:space-y-6">
+                {/* Main Logo */}
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/footers-logos.svg"
+                    alt="Influenceher Logo"
+                    width={260}
+                    height={150}
+                    className="w-auto h-auto max-w-[200px] sm:max-w-[220px] md:max-w-[240px] lg:max-w-[260px]"
+                    priority
+                  />
+                </div>
+
+                {/* Yellow Logo */}
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/yellow-logo.png" // Replace with your actual yellow logo path
+                    alt="Yellow Logo"
+                    width={300}
+                    height={300}
+                    className="w-auto h-auto max-w-[150px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[200px]"
+                  />
+                </div>
               </div>
             </div>
 
