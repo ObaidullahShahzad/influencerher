@@ -14,9 +14,9 @@ const HowItWorksSection: React.FC = () => {
           </div>
 
           <p className="text-white/80 jakarta text-[15px] max-w-4xl mx-auto leading-relaxed mb-6">
-            InfluenceHer equips OnlyFans creators with a high-conversion
-            marketing and automation system that unlocks earning potential most
-            creators can&apos;t access on their own.
+            As creators earn more, consistent buybacks reduce circulating
+            supply, driving long-term growth. it’s an ecosystem built on aligned
+            incentives.
           </p>
 
           <p className="text-white/80 jakarta text-[15px] max-w-4xl mx-auto leading-relaxed">
