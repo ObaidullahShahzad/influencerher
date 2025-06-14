@@ -26,17 +26,12 @@ const FAQSection: React.FC = () => {
       isOpen: true,
     },
     {
-      question: "What is the $INFLUENCE token?",
+      question: "What is the $INFLU token?",
       answer:
-        "The $INFLUENCE token powers the platform's reward cycles and aligns incentives between creators, investors, and stakeholders. Token holders can stake to earn rewards from platform-generated value and support creator growth initiatives.",
+        "The $INFLU token powers the platform's reward cycles and aligns incentives between creators and investors. It is a deflationary token tied to platform revenue. A portion of profits is used to buy back $INFLU from the market and permanently burn it, reducing total supply over time and increasing scarcity.",
       isOpen: false,
     },
-    {
-      question: "How does staking work?",
-      answer:
-        "Token holders can stake $INFLUENCE to access platform reward cycles. This reduces circulating supply, supports long-term token value, and aligns with ecosystem growth.",
-      isOpen: false,
-    },
+
     {
       question: "How is InfluenceHer different from other Web3 projects?",
       answer:
@@ -112,9 +107,9 @@ const FAQSection: React.FC = () => {
       isOpen: false,
     },
     {
-      question: "What makes InfluenceHer's token model sustainable?",
+      question: "What makes InfluenceHer’s token model sustainable?",
       answer:
-        "The $INFLUENCE token is designed to reflect real-world creator earnings, not speculative hype. Staking mechanisms, platform fees, and token buybacks all contribute to long-term demand while reducing circulating supply over time.",
+        "The $INFLU token is designed to reflect real-world creator earnings, not speculative hype. Staking mechanisms, platform fees, and token buybacks all contribute to long-term demand while reducing circulating supply over time.",
       isOpen: false,
     },
   ]);
