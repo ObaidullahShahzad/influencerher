@@ -119,11 +119,6 @@ const HowItWorksSection: React.FC = () => {
 
         {/* Bottom Text */}
         <div className="text-center">
-          <p className="text-white/80 jakarta text-[15px] max-w-5xl mx-auto leading-relaxed ">
-            As creators earn more, consistent buybacks reduce circulating
-            supply, driving long-term city. It&apos;s an ecosystem built on
-            aligned incentives.
-          </p>
           <p className="text-white/80 jakarta text-[15px] max-w-5xl mx-auto leading-relaxed">
             we help creators earn more. That revenue powers the token. The
             token&apos;s supply deflates. Simple and scalable.
