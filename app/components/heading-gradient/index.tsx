@@ -27,7 +27,7 @@ export default function GradientText({ text }: GradientTextProps) {
     <div className=" bg-black flex flex-col items-center justify-start  mb-0 text-white font-sans">
       <h1
         ref={headingRef}
-        className="text-[clamp(36px,8vw,80px)] uppercase cinzel font-medium text-center"
+        className="text-[clamp(36px,8vw,80px)] uppercase jakarta font-medium text-center"
         style={{
           backgroundImage:
             "linear-gradient(#D467E2 -200%, #5BB3EB -100%, #D467E2 0%)",
