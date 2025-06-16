@@ -88,13 +88,19 @@ const FutureAiModel: React.FC = () => {
                   FUTURE AI MODELS EXPANSIONS{" "}
                 </p> */}
                 <p className="text-sm jakarta sm:text-base lg:text-lg xl:text-xl leading-relaxed text-white/90">
-                  We run continuous outreach campaigns across Facebook and
-                  Google to target creators seeking monetization opportunities.
-                  Our optimized ad funnels attract high-potential talent, while
-                  our streamlined onboarding system enables scalable growth.
-                  This approach ensures a predictable pipeline of new creators,
-                  fueling ecosystem expansion and reinforcing long-term token
-                  value.
+                  InfluenceHer is strategically expanding into AI-generated
+                  models to build a highly scalable, ultra-profitable vertical
+                  alongside our human creator portfolio. By leveraging platforms
+                  like Fanvue the leading hub for AI influencer monetization we
+                  can deploy fully digital models that operate 24/7, require
+                  minimal overhead, and deliver 80%+ profit margins. These AI
+                  avatars produce infinite content variations, serve global
+                  audiences without geographic limits, and unlock multiple
+                  revenue streams including subscriptions, GPT-powered chats,
+                  custom content, and live AI streaming. This expansion allows
+                  InfluenceHer to combine viral human creator growth with
+                  consistent, defensible AI revenue, positioning the platform
+                  for long-term scalability and market dominance.
                 </p>
               </div>
             </div>
