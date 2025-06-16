@@ -250,7 +250,7 @@ const FAQSection: React.FC = () => {
                 alt="icon"
               />
               <button className="w-full px-6 sm:px-8 py-6 text-left cursor-pointer flex justify-between items-center  transition-colors duration-200">
-                <h3 className="text-lg sm:text-xl cinzel font-medium text-white pr-4">
+                <h3 className="text-lg sm:text-xl jakarta font-medium text-white pr-4">
                   {faq.question}
                 </h3>
                 <div className="cursor-pointer flex-shrink-0">
@@ -276,7 +276,7 @@ const FAQSection: React.FC = () => {
                 <div className="px-6 sm:px-8 pb-6">
                   <div className="pt-2 relative">
                     <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-purple-400 via-blue-400 to-purple-300"></div>
-                    <p className="text-gray-300 cinzel leading-relaxed mt-4">
+                    <p className="text-gray-300 jakarta leading-relaxed mt-4">
                       {faq.answer}
                     </p>
                   </div>

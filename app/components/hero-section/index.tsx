@@ -110,7 +110,7 @@ const HeroSection: React.FC = () => {
                     }
                     target={item.isExternal ? "_blank" : undefined}
                     rel={item.isExternal ? "noopener noreferrer" : undefined}
-                    className={`text-white cinzel hover:text-blue-300 transition-colors duration-200 text-[16px] font-medium tracking-wide flex items-center group ${
+                    className={`text-white jakarta hover:text-blue-300 transition-colors duration-200 text-[16px] font-medium tracking-wide flex items-center group ${
                       item.isExternal
                         ? "hover:bg-blue-600/20 px-3 py-2 rounded-md"
                         : ""
@@ -199,7 +199,7 @@ const HeroSection: React.FC = () => {
                     }}
                     target={item.isExternal ? "_blank" : undefined}
                     rel={item.isExternal ? "noopener noreferrer" : undefined}
-                    className={`block text-white  hover:text-blue-300 cinzel transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10 ${
+                    className={`block text-white  hover:text-blue-300 jakarta transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10 ${
                       item.isExternal
                         ? "hover:bg-blue-600/20 rounded-md px-2 -mx-2"
                         : ""

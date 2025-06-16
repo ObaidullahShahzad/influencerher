@@ -80,7 +80,7 @@ const FutureAiModel: React.FC = () => {
             >
               {/* Content Section */}
               <div className="flex-1 p-6 text-center md:p-16 text-white">
-                <h1 className="text-3xl cinzel sm:text-4xl lg:text-[46px] xl:text-5xl font-[700] mb-2 md:mb-2 leading-tight">
+                <h1 className="text-3xl jakarta sm:text-4xl lg:text-[46px] xl:text-5xl font-[700] mb-2 md:mb-2 leading-tight">
                   FUTURE AI MODELS EXPANSIONS{" "}
                 </h1>
 
