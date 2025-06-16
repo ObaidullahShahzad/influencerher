@@ -199,7 +199,7 @@ const HeroSection: React.FC = () => {
                     }}
                     target={item.isExternal ? "_blank" : undefined}
                     rel={item.isExternal ? "noopener noreferrer" : undefined}
-                    className={`block text-white neue hover:text-blue-300 transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10 ${
+                    className={`block text-white  hover:text-blue-300 cinzel transition-colors duration-200 text-lg font-medium tracking-wide py-2 border-b border-white/10 ${
                       item.isExternal
                         ? "hover:bg-blue-600/20 rounded-md px-2 -mx-2"
                         : ""
