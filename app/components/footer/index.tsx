@@ -156,7 +156,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
                       <Link
                         href={link.href}
                         onClick={(e) => handleLinkClick(e, link.href)}
-                        className="text-base font-light text-white transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
+                        className="text-base cinzel font-light text-white transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
                       >
                         {link.name}
                       </Link>
@@ -181,7 +181,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
                     aria-label={social.ariaLabel}
                     className="group"
                   >
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 text-white transition-all duration-300 group-hover:-translate-y-1 group-hover:bg-[#C7B19933] group-hover:text-[#C7B199] group-hover:shadow-lg lg:h-14 lg:w-14">
+                    <div className="flex h-12 w-12 items-center cinzel justify-center rounded-xl bg-white/10 text-white transition-all duration-300 group-hover:-translate-y-1 group-hover:bg-[#C7B19933] group-hover:text-[#C7B199] group-hover:shadow-lg lg:h-14 lg:w-14">
                       {social.icon}
                     </div>
                   </Link>
