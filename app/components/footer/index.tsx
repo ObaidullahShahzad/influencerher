@@ -168,7 +168,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
 
             {/* Social Section */}
             <div className="text-center lg:text-left">
-              <h3 className="mb-8 text-lg jakarta normal text-[#C7B199]">
+              <h3 className="mb-8 text-lg cinzel normal text-[#C7B199]">
                 Social Links
               </h3>
               <div className="flex justify-center space-x-5 lg:justify-start">
@@ -193,10 +193,10 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
           {/* Footer Bottom */}
           <div className="mt-16 flex flex-col items-center gap-[20px] space-y-4 border-t border-[#D9D9D91A] pt-8 lg:flex-row lg:space-y-0">
             <div className="flex flex-col md:flex-row justify-center items-center">
-              <p className="text-base jakarta font-[700] text-[#D9D9D9]">
+              <p className="text-base cinzel font-[700] text-[#D9D9D9]">
                 © {currentYear} Influenceher Management.{" "}
               </p>
-              <span className="font-light jakarta  text-white/50 ">
+              <span className="font-light cinzel  text-white/50 ">
                 {" "}
                 All rights reserved.
               </span>
@@ -204,13 +204,13 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
             <div className="flex space-x-8">
               <Link
                 href="/privacy-policy"
-                className="text-sm font-light jakarta text-white/50 transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
+                className="text-sm font-light cinzel text-white/50 transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
               >
                 Privacy Policy
               </Link>
               <Link
                 href="/terms-condition"
-                className="text-sm font-light jakarta text-white/50 transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
+                className="text-sm font-light cinzel text-white/50 transition-colors duration-300 hover:underline  hover:text-[#C7B199]"
               >
                 Terms of Service
               </Link>
