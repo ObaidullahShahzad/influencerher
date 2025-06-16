@@ -14,15 +14,16 @@ const HowItWorksSection: React.FC = () => {
           </div>
 
           <p className="text-white/80 jakarta text-[15px] max-w-4xl mx-auto leading-relaxed mb-6">
-            As creators earn more, consistent buybacks reduce circulating
-            supply, driving long-term growth. it’s an ecosystem built on aligned
-            incentives.
+            InfluenceHer is a Web3-native growth engine for OnlyFans creators.
+            We scale creators using proven monetization systems and funnel a
+            fixed share (25%) of net platform revenue into buying back and
+            burning $INFLU creating long-term scarcity and value.
           </p>
 
-          <p className="text-white/80 jakarta text-[15px] max-w-4xl mx-auto leading-relaxed">
+          {/* <p className="text-white/80 jakarta text-[15px] max-w-4xl mx-auto leading-relaxed">
             In return, we take a percentage of the revenue — and that share is
             split transparently:
-          </p>
+          </p> */}
         </div>
 
         {/* Percentage Breakdown with Dividers */}
@@ -120,8 +121,9 @@ const HowItWorksSection: React.FC = () => {
         {/* Bottom Text */}
         <div className="text-center">
           <p className="text-white/80 jakarta text-[15px] max-w-5xl mx-auto leading-relaxed">
-            we help creators earn more. That revenue powers the token. The
-            token&apos;s supply deflates. Simple and scalable.
+            $531K+ Net revenue from just 2 case studies. Before launching
+            InfluenceHer, we scaled multiple creators using the exact system now
+            powering our platform.
           </p>
         </div>
       </div>
